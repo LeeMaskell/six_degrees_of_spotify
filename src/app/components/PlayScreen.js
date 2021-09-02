@@ -7,7 +7,8 @@ import Spotify from './SpotifyAPI';
 const PlayScreen = () => {
     const [artist1, setArtist1] = useState(null);
     
-    const handleStarter = () => {
+    const handleStarter = (e) => {
+        e.preventDefault();
         console.log(document.getElementById("artist1"));
         let startArtist = starterArtist[Math.floor(Math.random() * starterArtist.length)];
         // artistChain.push(startArtist.name); prints starting artist to artistChain list

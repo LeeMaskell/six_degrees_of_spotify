@@ -1,5 +1,5 @@
 const clientId = '5cad4d3bde5f483e94d38253735b91b1';
-const redirectUri = 'http://localhost:3000/playScreen'; 
+const redirectUri = 'https://leemaskell.github.io/six_degrees_of_spotify'; 
 let accessToken = '';
 
 const Spotify = {
