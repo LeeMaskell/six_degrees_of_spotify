@@ -1,8 +1,8 @@
 {
   "files": {
-    "main.css": "/six_degrees_of_spotify/static/css/main.8ca35157.chunk.css",
-    "main.js": "/six_degrees_of_spotify/static/js/main.7b856c06.chunk.js",
-    "main.js.map": "/six_degrees_of_spotify/static/js/main.7b856c06.chunk.js.map",
+    "main.css": "/six_degrees_of_spotify/static/css/main.b0658c55.chunk.css",
+    "main.js": "/six_degrees_of_spotify/static/js/main.eb33cff8.chunk.js",
+    "main.js.map": "/six_degrees_of_spotify/static/js/main.eb33cff8.chunk.js.map",
     "runtime-main.js": "/six_degrees_of_spotify/static/js/runtime-main.d21bf154.js",
     "runtime-main.js.map": "/six_degrees_of_spotify/static/js/runtime-main.d21bf154.js.map",
     "static/js/2.209c1454.chunk.js": "/six_degrees_of_spotify/static/js/2.209c1454.chunk.js",
@@ -10,7 +10,7 @@
     "static/js/3.3f61d7ee.chunk.js": "/six_degrees_of_spotify/static/js/3.3f61d7ee.chunk.js",
     "static/js/3.3f61d7ee.chunk.js.map": "/six_degrees_of_spotify/static/js/3.3f61d7ee.chunk.js.map",
     "index.html": "/six_degrees_of_spotify/index.html",
-    "static/css/main.8ca35157.chunk.css.map": "/six_degrees_of_spotify/static/css/main.8ca35157.chunk.css.map",
+    "static/css/main.b0658c55.chunk.css.map": "/six_degrees_of_spotify/static/css/main.b0658c55.chunk.css.map",
     "static/js/2.209c1454.chunk.js.LICENSE.txt": "/six_degrees_of_spotify/static/js/2.209c1454.chunk.js.LICENSE.txt",
     "static/media/IMG-5991.c9b89c7a.jpg": "/six_degrees_of_spotify/static/media/IMG-5991.c9b89c7a.jpg",
     "static/media/IMG-5992.32150067.jpg": "/six_degrees_of_spotify/static/media/IMG-5992.32150067.jpg",
@@ -25,7 +25,7 @@
   "entrypoints": [
     "static/js/runtime-main.d21bf154.js",
     "static/js/2.209c1454.chunk.js",
-    "static/css/main.8ca35157.chunk.css",
-    "static/js/main.7b856c06.chunk.js"
+    "static/css/main.b0658c55.chunk.css",
+    "static/js/main.eb33cff8.chunk.js"
   ]
 }
