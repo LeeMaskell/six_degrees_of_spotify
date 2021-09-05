@@ -6,19 +6,16 @@ import Rules from './components/Rules';
 import About from './components/About.js';
 import PlayScreen from './components/PlayScreen.js';
 
-import { HashRouter, Route } from 'react-router-dom';
+import { BrowserRouter as Router, Route } from 'react-router-dom';
 
 function App() {
   return (
-    <HashRouter basename='/' className="App">
+    <Router basename="/" className="App">
       <Route>
         <Navbar />
       </Route>
       <Route>
         <Header />
-      </Route>
-      <Route path="/:access_token(access_token=.*)">
-        <PlayScreen />
       </Route>
       <Route path='/rules'>
         <Rules />
@@ -32,7 +29,7 @@ function App() {
       <Route path='/playScreen'>
         <PlayScreen />
       </Route>
-    </HashRouter>
+    </Router>
   );
 }
 

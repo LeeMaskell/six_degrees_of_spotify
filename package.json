@@ -1,6 +1,6 @@
 {
   "name": "six_degrees_of_spotify_react",
-  "homepage": "http://LeeMaskell.github.io/six_degrees_of_spotify",
+  "homepage": "https://six-degrees-of-spotify.leemaskell.com",
   "version": "0.1.0",
   "private": true,
   "dependencies": {

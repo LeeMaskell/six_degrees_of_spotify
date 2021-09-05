@@ -9,8 +9,6 @@ const About = () => {
                 to.<br></br><br></br>
 
                 It's not an easy game. The first attempt took 27 selections...<br></br><br></br><br></br><br></br>
-
-                <em>This game has been created for educational purposes. It is not publicly avaialble.</em>
             </h2>
         </div>
      );
