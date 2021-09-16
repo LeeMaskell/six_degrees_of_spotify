@@ -1,10 +1,10 @@
 import '../App.css';
-import Navbar from './components/NavBar.js'
-import Header from './components/Header.js';
-import Home from './components/Home.js';
-import Rules from './components/Rules';
-import About from './components/About.js';
-import PlayScreen from './components/PlayScreen.js';
+import Navbar from './components/Presentational/NavBar.js'
+import Header from './components/Presentational/Header.js';
+import Home from './components/Presentational/Home.js';
+import Rules from './components/Presentational/Rules';
+import About from './components/Presentational/About.js';
+import PlayScreen from './components/Presentational/PlayScreen.js';
 
 import { BrowserRouter as Router, Route } from 'react-router-dom';
 

@@ -1,14 +1,14 @@
-import marvin from '../../resources/IMG-5993.jpg';
-import floyd from '../../resources/IMG-5997.jpg';
-import beck from '../../resources/IMG-5998.jpg';
-import miles from '../../resources/IMG-5994.jpg';
-import blondie from '../../resources/blondie.jpeg';
+import marvin from '../../../resources/marvinGaye.jpg';
+import floyd from '../../../resources/pinkFloyd.jpg';
+import beck from '../../../resources/beck.jpg';
+import miles from '../../../resources/milesDavis.jpg';
+import blondie from '../../../resources/blondie.jpeg';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faStepBackward } from '@fortawesome/free-solid-svg-icons';
 import { faQuestionCircle } from '@fortawesome/free-solid-svg-icons';
 import { faStepForward } from '@fortawesome/free-solid-svg-icons';
 import { Link } from 'react-router-dom';
-import Spotify from './SpotifyAPI';
+import Spotify from '../container/SpotifyAPI';
 
 const Home = () => {
     const stepBackward = <FontAwesomeIcon icon={faStepBackward} />;
@@ -21,17 +21,17 @@ const Home = () => {
             <section id="beck"><img src={ beck } alt="Beck"/></section>
             <section id="miles"><img src={ miles } alt="Miles Davis"/></section>
             <section id="blondie"><img src={ blondie } alt="Blondie"/></section>
-            <section id="trackback">
+            <section id="icon__track-back">
                 <a>{stepBackward}</a>
             </section>
-            <section id="question">
+            <section id="icon__question">
                 <a>{questionCircle}</a>
             </section>
-            <section id="trackforward">
+            <section id="icon__track-forward">
                 <a>{stepForward}</a>
             </section>
             <section id="play">
-                <Link to='/playScreen' id="playbutton" onClick={Spotify.getAccessToken}>Play Now</Link>
+                <Link to='/playScreen' id="play-button" onClick={Spotify.getAccessToken}>Play Now</Link>
             </section>
         </div>
     );

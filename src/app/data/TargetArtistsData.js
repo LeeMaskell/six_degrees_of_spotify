@@ -1,7 +1,7 @@
-import spiceGirlsImg from "../..//resources/IMG-5995.jpg";
-import pjHarveyImg from "../..//resources/IMG-5991.jpg";
-import duaLipaImg from "../..//resources/IMG-5992.jpg";
-import abbaImg from "../..//resources/IMG-5999.jpg";
+import spiceGirlsImg from "../..//resources/spiceGirls.jpg";
+import pjHarveyImg from "../..//resources/pjHarvey.jpg";
+import duaLipaImg from "../..//resources/duaLipa.jpg";
+import abbaImg from "../..//resources/abba.jpg";
 
 const spiceGirls = {
     name: 'Spice Girls',

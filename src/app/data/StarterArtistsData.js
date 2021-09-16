@@ -1,8 +1,8 @@
-import marvinImg from "../..//resources/IMG-5993.jpg";
-import beckImg from "../..//resources/IMG-5998.jpg";
-import pinkFloydImg from "../..//resources/IMG-5997.jpg";
+import marvinImg from "../..//resources/marvinGaye.jpg";
+import beckImg from "../..//resources/beck.jpg";
+import pinkFloydImg from "../..//resources/pinkFloyd.jpg";
 import blondieImg from "../..//resources/blondie.jpeg";
-import milesDavisImg from "../..//resources/IMG-5994.jpg";
+import milesDavisImg from "../..//resources/milesDavis.jpg";
 
 // list of artists for reference
 const marvinGaye = {

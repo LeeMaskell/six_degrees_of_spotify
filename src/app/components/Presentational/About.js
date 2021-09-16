@@ -1,7 +1,7 @@
 const About = () => {
     return ( 
         <div id="about">
-            <h2 className="rulesText">
+            <h2 className="text">
                 Six Degrees of Spotify was devised at a party when the person choosing the music couldn't think of a ceratin
                 artist and used the related artist information to find the song he had in mind. A discussion followed about 
                 whether the algorithm is useful for finding new music or if it is essentially an 'echo chamber' of the first 
