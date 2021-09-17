@@ -1,6 +1,6 @@
 const Rules = () => {
     return ( 
-        <div id="rules">
+        <div className="info-text">
             <h2 className="text">The aim of the game is to navigate from a starting artist to a target artist using the associated 'related artist' 
             information provided by Spotify. Each time an artist is selected a new list of related artists is provided. You need to consider the which 
             of the related artists will change the algorithm and provide related artists that are more similar to the target artist than the starting 

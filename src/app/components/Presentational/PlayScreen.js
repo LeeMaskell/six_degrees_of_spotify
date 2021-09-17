@@ -61,19 +61,19 @@ const PlayScreen = () => {
     }
 
     return (
-        <div id="play-screen">
+        <div className="play-screen">
             <form className="artist-display">
                 <label id="label" htmlFor="search-term" className={displayNone ? "display-none" : ""}>Click to generate your starter and target artists</label><br></br><br></br>
                 <StartButton handleStarter={handleStarter} buttonDisplay={buttonDisplay} />
                 <form className={display ? "display" : ""}>
-                    <label id="rel-artist-label" for="select">Select related artist</label><br></br>
+                    <label for="select">Select related artist</label><br></br>
                     <ArtistChoiceDisplay isLoading={isLoading}
                         value={value}
                         onRelatedSelected={onRelatedSelected}
                         relArtist={relArtist}
                     />
                 </form>
-                <div id="play-grid">
+                <div className="play-grid">
                     <StarterArtist artist1={artist1} />
                     <RelArtistListRender artistChain={artistChain} win={win} lose={lose} />
                     <TargetArtist artist2={artist2} />

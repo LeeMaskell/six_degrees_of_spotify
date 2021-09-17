@@ -15,23 +15,23 @@ const Home = () => {
     const questionCircle = <FontAwesomeIcon icon={faQuestionCircle} />;
     const stepForward = <FontAwesomeIcon icon={faStepForward} />;
     return (
-        <div id="main">
+        <div className="main">
             <section id="marvin"><img src={ marvin } alt="Marvin Gaye"/></section>
             <section id="floyd"><img src={ floyd } alt="Pink Floyd"/></section>
             <section id="beck"><img src={ beck } alt="Beck"/></section>
             <section id="miles"><img src={ miles } alt="Miles Davis"/></section>
             <section id="blondie"><img src={ blondie } alt="Blondie"/></section>
-            <section id="icon__track-back">
+            <section className="icon__track-back">
                 <a>{stepBackward}</a>
             </section>
-            <section id="icon__question">
+            <section className="icon__question">
                 <a>{questionCircle}</a>
             </section>
-            <section id="icon__track-forward">
+            <section className="icon__track-forward">
                 <a>{stepForward}</a>
             </section>
-            <section id="play">
-                <Link to='/playScreen' id="play-button" onClick={Spotify.getAccessToken}>Play Now</Link>
+            <section className="play">
+                <Link to='/playScreen' className="play-button" onClick={Spotify.getAccessToken}>Play Now</Link>
             </section>
         </div>
     );

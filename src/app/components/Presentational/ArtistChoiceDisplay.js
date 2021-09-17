@@ -3,7 +3,7 @@ import React from 'react'
 const ArtistChoiceDisplay = ({isLoading, value, onRelatedSelected, relArtist}) => {
     return (
         <div>
-            <select disabled={isLoading} id="selection" name="select" value={value} onChange={onRelatedSelected}>
+            <select disabled={isLoading} name="select" value={value} onChange={onRelatedSelected}>
                 <option disabled selected value> -- select an option -- </option>
                 {
                     relArtist.map(item => {

@@ -8,7 +8,7 @@ const Header = () => {
         <header className="title">
             <h1>{spotify}</h1>
             <h1>Six Degrees of <span>Spotify</span></h1>
-            <h1 id="mobile-title">6<sup>o</sup>{spotify}</h1>
+            <h1 className="mobile-title">6<sup>o</sup>{spotify}</h1>
         </header>
     );
 }
